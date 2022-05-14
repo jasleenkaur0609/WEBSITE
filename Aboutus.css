@@ -1,1 +1,80 @@
+h1{
+    font-family: cursive;
+    color: rgb(0, 162, 255);
+    text-align: center;
 
+}
+body{
+    background-image:linear-gradient(rgba(179, 245, 228, 0.7),rgba(179, 245, 228, 0.7)), url("https://image.shutterstock.com/image-photo/about-us-details-contact-data-260nw-377373607.jpg");
+    background-size: cover;
+}
+p{
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(0, 162, 255);
+}
+.about{
+    background-size: 1000px;
+}
+.about-heading{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-heading h2{
+    line-height: 55px;
+    font-size: 50px;
+    color: #10003d;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 0px;
+}
+.about-heading p{
+    font-size: 0.9rem;
+    color: rgb(2, 4, 31);
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(124, 201, 235, 0.733);
+    box-shadow: 2px 2px 20px rgba(1,141,83,0.507);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    flex-grow: 1;
+}
+.box img{
+    height: 150px;
+    margin: 10px;
+}
+.box font{
+    font-size: 1.5rem;
+    color: #10003d;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.box p{
+     font-size: 0.9rem;
+     color: rgb(2, 4, 31);
+     display: block;
+     font-weight: 600;
+     overflow: hidden;
+     max-width: 500px;
+     text-overflow: ellipsis;
+}

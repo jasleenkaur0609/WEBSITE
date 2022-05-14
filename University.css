@@ -1,1 +1,23 @@
-
+body{
+    min-height: 50vh;
+    width: 99.4%;
+    background-image: linear-gradient(rgba(248,192,159,0.7),rgba(248,192,159,0.7)),url("https://tse1.mm.bing.net/th?id=OIP.Yxw5tLcKneJeu_aTGVZBPgHaE8&pid=Api&P=0&w=225&h=151");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-shadow: gray 2px 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+}
+#image img{
+    width: 100px;
+    height: 50px;
+}
+#image a{
+    color: rgb(42,10,92);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
